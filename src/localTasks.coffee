@@ -102,7 +102,7 @@ module.exports =
           if pm2mConf.prebuildScript and pm2mConf.prebuildScript.trim() isnt ""
             buildScript  += "&& #{pm2mConf.prebuildScript} "
           buildScript  += "&& meteor build #{pm2mConf.meteorBuildFlags} --directory #{CWD}"
-          exec buildScript, (err, sdout, stderr)->
+          exec buildScript, {maxBuffer: 1024*200000}, (err, sdout, stderr)->
             if err
               done err
             else
