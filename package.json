@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andruschka/pm2-meteor.git"
+    "url": "https://github.com/nightshadecf/pm2-meteor.git"
   },
   "keywords": [
     "pm2",
@@ -26,9 +26,9 @@
   "author": "andruschka <fritz.andrej@me.com> (http://github.com/andruschka)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andruschka/pm2-meteor/issues"
+    "url": "https://github.com/nightshadecf/pm2-meteor/issues"
   },
-  "homepage": "https://github.com/andruschka/pm2-meteor",
+  "homepage": "https://github.com/nightshadecf/pm2-meteor",
   "dependencies": {
     "abs": "^1.0.0",
     "async": "^1.4.2",
